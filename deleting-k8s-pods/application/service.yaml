@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: load-app-service
+spec:
+  selector:
+    app: load-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
