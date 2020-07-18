@@ -1,0 +1,23 @@
+{
+  "name": "katacoda-scenarios",
+  "version": "1.0.0",
+  "description": "[![](http://shields.katacoda.com/katacoda/harryemartland/count.svg)](https://www.katacoda.com/harryemartland \"Get your profile on Katacoda.com\")",
+  "main": "index.js",
+  "scripts": {
+    "katacoda": "katacoda",
+    "create": "katacoda scenarios:create"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryEMartland/katacoda-scenarios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarryEMartland/katacoda-scenarios/issues"
+  },
+  "homepage": "https://github.com/HarryEMartland/katacoda-scenarios#readme",
+  "dependencies": {
+    "katacoda-cli": "0.0.20"
+  }
+}
