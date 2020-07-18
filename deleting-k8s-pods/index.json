@@ -31,5 +31,12 @@
   },
   "backend": {
     "imageid": "kubernetes"
+  },
+  "assets": {
+    "host01": [
+      {"file": "deployment.yaml", "target": "/usr/local/bin/app"},
+      {"file": "ingress.yaml", "target": "/usr/local/bin/app"},
+      {"file": "service.yaml", "target": "/usr/local/bin/app"}
+    ]
   }
 }
