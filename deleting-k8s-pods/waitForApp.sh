@@ -6,7 +6,14 @@ do
   sleep 1
 done
 
-echo "Waiting for Application"
+echo "Waiting for Deployment"
+
+until kubectl get deployment > /dev/null
+do
+  sleep 1
+done
+
+echo "Waiting for Application to be healthy"
 
 kubectl wait --for=condition=available deployment/load-app
 
