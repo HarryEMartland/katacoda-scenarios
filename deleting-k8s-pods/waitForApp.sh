@@ -6,12 +6,7 @@ do
   sleep 1
 done
 
-echo "Waiting for Deployment"
-
-until kubectl get deployment &> /dev/null
-do
-  sleep 1
-done
+sleep 3
 
 echo "Waiting for Application to be healthy"
 
