@@ -1,14 +1,14 @@
 #!/bin/bash
 
 echo "Waiting for K8s"
-until kubectl get pods > /dev/null
+until kubectl get pods&> /dev/null
 do
   sleep 1
 done
 
 echo "Waiting for Deployment"
 
-until kubectl get deployment > /dev/null
+until kubectl get deployment &> /dev/null
 do
   sleep 1
 done
