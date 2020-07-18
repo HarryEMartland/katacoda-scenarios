@@ -20,7 +20,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "setup.sh"
+      "courseData": "setup.sh",
+      "code": "waitForApp.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -31,12 +32,5 @@
   },
   "backend": {
     "imageid": "kubernetes"
-  },
-  "assets": {
-    "host01": [
-      {"file": "application/deployment.yaml", "target": "/usr/local/bin/app/"},
-      {"file": "application/ingress.yaml", "target": "/usr/local/bin/app/"},
-      {"file": "application/service.yaml", "target": "/usr/local/bin/app/"}
-    ]
   }
 }
