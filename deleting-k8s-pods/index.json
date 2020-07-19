@@ -30,7 +30,7 @@
   "environment": {
     "uilayout": "terminal",
     "terminals": [
-      {"name": "Load", "target": "host01", "command": "wrk -rate1 http://localhost:3000"},
+      {"name": "Load", "target": "host01", "command": "wrk --rate=1 http://[[HOST_IP]]:3000"},
       {"name": "Pods", "target": "host01", "command": "watch -n1 kubectl get pods"}
     ]
   },
