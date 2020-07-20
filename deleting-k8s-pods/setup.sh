@@ -3,7 +3,7 @@ alias k=kubectl
 
 echo "Installing Tools"
 apt-get update
-apt-get install -y build-essential libssl-dev git zlib1g-dev
+apt-get install -y libssl-dev git zlib1g-dev
 git clone https://github.com/giltene/wrk2.git
 cd wrk2
 make
