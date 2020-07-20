@@ -4,7 +4,7 @@ setup()
 {
 echo "Installing Tools"
 apt-get update &> /dev/null
-apt-get install -y libssl-dev &> /dev/null
+build-essential libssl-dev git zlib1g-dev &> /dev/null
 git clone https://github.com/giltene/wrk2.git &> /dev/null;
 cd wrk2
 make &> /dev/null
