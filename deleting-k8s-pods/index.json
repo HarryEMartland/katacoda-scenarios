@@ -6,7 +6,7 @@
   "details": {
     "steps": [
       {
-        "title": "Wait for Finish",
+        "title": "Wait for Setup to Finish",
         "text": "waitForFinish.md"
       },
       {
