@@ -1,5 +1,4 @@
-
-alias k=kubectl
+#!/bin/bash
 
 echo "Installing Tools"
 apt-get update
