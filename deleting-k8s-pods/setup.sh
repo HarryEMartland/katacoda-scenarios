@@ -3,8 +3,8 @@ alias k=kubectl
 
 echo "Installing Tools"
 apt-get update
-apt-get install -y libssl-dev
-git clone https://github.com/giltene/wrk2.git
+apt-get install -y libssl-dev < "/dev/null"
+git clone https://github.com/giltene/wrk2.git;
 cd wrk2
 make
 # move the executable to somewhere in your PATH
