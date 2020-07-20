@@ -1,1 +1,1 @@
-alias k=kubectl;sleep 1; setup.sh
+sleep 1; setup.sh

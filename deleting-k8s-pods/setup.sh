@@ -1,5 +1,7 @@
 #!/bin/bash
 
+setup()
+{
 echo "Installing Tools"
 apt-get update
 apt-get install -y libssl-dev < "/dev/null"
@@ -24,3 +26,6 @@ kubectl wait --for=condition=available deployment/load-app
 echo "Finished"
 
 kubectl get pods
+}
+
+setup
