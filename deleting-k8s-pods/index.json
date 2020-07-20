@@ -14,8 +14,26 @@
         "text": "lookingAround.md"
       },
       {
-        "title": "Kill Some Pods",
+        "title": "Let's Kill Some Pods",
         "text": "killSomePods.md"
+      },
+      {
+        "title": "Outage",
+        "text": "outage.md"
+      },
+      {
+        "title": "Graceful Shutdown",
+        "text": "gracefulShutdown.md"
+      },
+      {
+        "title": "Misconfiguration",
+        "text": "misconfiguration.md"
+      }
+
+    ,
+      {
+        "title": "End",
+        "text": "end.md"
       }
     ],
     "intro": {
@@ -34,7 +52,7 @@
   "environment": {
     "uilayout": "terminal",
     "terminals": [
-      {"name": "Load", "target": "host01", "command": "wrk --rate=1 http://`minikube ip`/delay/30000"},
+      {"name": "Load", "target": "host01", "command": "artillery quick -d 600 -r 1 http://`minikube ip`/delay/9000"},
       {"name": "Pods", "target": "host01", "command": "watch -n1 kubectl get pods"}
     ]
   },
