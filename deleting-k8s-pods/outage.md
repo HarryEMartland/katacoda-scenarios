@@ -27,8 +27,8 @@ load-app-6fb984d9cb-nmmtk   1/1     Running   0          5m47s
 load-app-6fb984d9cb-rmzlm   1/1     Running   0          5m47s
 ```
 
-Now if we run `kubectl delete pod -lapp=load-app`{{execute}} and delete all our pods we should start seeing some `502` and `503` error codes returned.
+Now if we run `kubectl delete pod -lapp=load-app`{{execute T1}} and delete all our pods we should start seeing some ECONNREFUSED errors.
 This would be returned to your customers and give them a poor experience.
 
-Once the pods are back up the status codes will go back to being 200.
+Once the pods are back up the status codes will go back to being `200`.
 You can confirm the status of the pods in the `Load` tab.
