@@ -52,7 +52,7 @@
   "environment": {
     "uilayout": "terminal",
     "terminals": [
-      {"name": "Load", "target": "host01", "command": "artillery quick -d 600 -r 1 http://`minikube ip`/delay/9000"},
+      {"name": "Load", "target": "host01", "command": "artillery quick -d 600 -r 1 http://`minikube ip`:30000/delay/9000"},
       {"name": "Pods", "target": "host01", "command": "watch -n1 kubectl get pods"}
     ]
   },

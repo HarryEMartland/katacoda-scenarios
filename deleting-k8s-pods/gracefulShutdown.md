@@ -1,6 +1,6 @@
 
 
-This time lets only kill one pod with ``kubectl delete `k get pods -oname | head -n1` ``{{execute}}.
+This time lets only kill one pod with ``kubectl delete `kubectl get pods -oname | head -n1` ``{{execute T1}}.
 Keep an eye on the `Load` tab and watch how the status codes remain `200`.
 
 K8s is clever enough to take the pod out of traffic before stopping it.
