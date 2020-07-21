@@ -2,7 +2,7 @@
   "title": "Deleting K8s Pods",
   "description": "Learn how Kubernetes safely deletes pods while under load.",
   "difficulty": "Intermediate",
-  "time": "1 hour",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
