@@ -28,6 +28,10 @@
       {
         "title": "Misconfiguration",
         "text": "misconfiguration.md"
+      },
+      {
+        "title": "Rolling Restart",
+        "text": "rollingRestart.md"
       }
 
     ,
