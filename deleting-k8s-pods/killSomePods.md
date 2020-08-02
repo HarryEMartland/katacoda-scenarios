@@ -1,5 +1,5 @@
 
-Throuout this scenario we are going to be killing pods so let's get used to the commands we are going to be running.
+Throughout this scenario we are going to be killing pods so let's get used to the commands we are going to be running.
 
 Running the command `kubectl delete pod -lapp=load-app`{{execute T1}} will delete all the load-app pods. 
 Once you have run this check out the `Pods` tab and watch the new pods come up with different names and ages.
