@@ -4,4 +4,4 @@ cp -r /tmp/kata-bootstraps/js/mocha-tests/. ./;
 
 npm install;
 
-npm test;
+npm run test:watch;
