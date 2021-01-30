@@ -1,0 +1,27 @@
+{
+  "title": "Kata Bootstrap JS Mocha",
+  "description": "Empty project for katas in JavaScript",
+  "difficulty": "Beginner",
+  "time": "1 minute",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "git clone https://github.com/swkBerlin/kata-bootstraps.git"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "vscode"
+  }
+}
